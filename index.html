@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Weight Converter</title>
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="icon" type="image/x-icon" href="./favicon.ico"> -->
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h1 class="display-4 text-center mb-3">Weight Converter</h1>
+          <form action="">
+            <div class="form-group">
+              <input
+                type="number"
+                class="form-control form-control-lg"
+                id="kgsInput"
+                placeholder="Enter Kilograms..."
+              />
+            </div>
+          </form>
+          <div id="output">
+            <div class="card card-primary mb-2">
+              <div class="card-block">
+                <h4>Grams:</h4>
+                <div id="gramsOutput"></div>
+              </div>
+            </div>
+            <div class="card card-success mb-2">
+              <div class="card-block">
+                <h4>Punds:</h4>
+                <div id="lbsOutput"></div>
+              </div>
+            </div>
+            <div class="card card-danger mb-2">
+              <div class="card-block">
+                <h4>Ounces:</h4>
+                <div id="ozOutput"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    margin-top: 181px;
+    background: #274747;
+    color: rgb(171, 148, 148);
+    position:absolute;
+    left:673px;
+}
+
+@media only screen and (min-width: 320px) {
+    body {
+        margin-top: 181px;
+        background: #274747;
+        color: rgb(171, 148, 148);
+        position: absolute;
+        left: 73px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    body {
+        margin-top: 181px;
+        background: #274747;
+        color: rgb(171, 148, 148);
+        position: absolute;
+        left: 273px;
+    }
+
+}
+@media only screen and (min-width: 992px) {
+    body {
+        margin-top: 181px;
+        background: #274747;
+        color: rgb(171, 148, 148);
+        position: absolute;
+        left: 673px;
+    }
+}
